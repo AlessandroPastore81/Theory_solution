@@ -1,0 +1,17 @@
+!Exercice 3 input, Wood-Saxon
+&input
+!**************Nucleus
+Neutron=126, Proton=82,
+!**************Box Size, def:20fm
+Rbox= 20.0,
+!**************Maximum angular momentum, def=0   
+!For the wood saxon, we have a contribution with higher angular momentum. 
+lmax = 6,
+!**************Potential properties
+!WS stands for Wood-Saxon. We can set the depth, the radius and the diffusitivity
+pot ='WS', Vdepth=-44.019, Radius = 7.5247, Adiff = 0.67, w_so=.false.,w_coul=.false.,wcst=1.0 / 
+
+
+
+
+
